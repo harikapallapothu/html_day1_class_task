@@ -74,7 +74,50 @@
 </html>
 
 4. 
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <ul>
+    <li>Programming Language
+        <ul type ="circle">
+            <li>JavaScript
+                <ol type="a">
+                    <li>Angular</li>
+                    <li>React</li>
+                    <li>Vue.js</li>
+                </ol>
+            </li>
+            <li>Python
+                <ol type="a">
+                    <li>Django Framework</li>
+                    <li>Flask Framework</li>
+                </ol>
+            </li>
+            <li>Java
+                <ol type="a">
+                    <li>Spring</li>
+                    <li>Maven</li>
+                    <li>Hybernate</li>
+                </ol>
+            </li>
+        </ul>
+    </li>
+    <li>Database
+        <ul>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>Cansandra</li>
+        </ul>
+    </li>
+   </ul>
+</body>
+</html>
 
 5.
 <!DOCTYPE html>
@@ -179,45 +222,46 @@
     <title>Document</title>
 </head>
 <body>
-    <!--name, email, gender, submit-->
-    <!--for attribute in label should be equal to id attribute in input-->
-    <label for="name">Name</label>
-    <input type="text" name="name" id="name">
-    <br/><br>
+   <input type="button" value="click_me">
+   <br><br>
+   <label for="checkbox">checkbox</label>
+   <input type="checkbox" name="" id="checkbox">
+   <br><br>
 
-    <label for="email">Email Id</label>
-    <input type="email" name="email" id="email">
-    <br/><br>
-    <!--when we give name attribute same for any 2 inputs it binds and takes only one value in case of radio button-->
-    <label for="Male">Male</label>
-    <input type="radio" name="gender" id="Male">
-    <label for="Female">Female</label>
-    <input type="radio" name="gender" id="Female">
-    <br/><br>
+   <input type="date" name="" id="date">
+   <br><br>
 
-    <label for="Single">Single</label>
-    <input type="radio" name="Marital Status" id="Single">
-    <label for="Married">Married</label>
-    <input type="radio" name="Marital Status" id="Married">
+   <label for="email">Email</label>
+   <input type="email" name="" id="Email">
+   <br><br>
+
+   <label for="password">password</label>
+   <input type="password" name="password" id="password">
     <br><br>
 
-    <label for="vehicle1">2_Wheeler</label>
-    <input type="checkbox" name="bike" id="vehicle1" value="bike">
+    <label for="radio_button">radio button</label>
+   <input type="radio" name="" id="radio_button">
+   <br><br>
 
-    <label for="vehicle2">3_Wheeler</label>
-    <input type="checkbox" name="auto" id="vehicle2" value="auto">
-
-    <label for="vehicle3">4_Wheeler</label>
-    <input type="checkbox" name="car" id="vehicle3" value="car">
-    <br><br>
-
-    <input type="submit" value="Submit">
-    
+   <input type="submit" value="submit">
 </body>
 </html>
 
 10.
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <mark>"HTML & CSS is awesome"</mark>
+</body>
+</html>
 
 
 11.
