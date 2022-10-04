@@ -1,0 +1,268 @@
+1. Fix the bugs in below snippet
+    <html lang="en">
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.  
+    </div>
+    <div>
+        Guvi Geek Network
+    </div>
+        </body>
+    </html>
+    
+    2.
+    <html lang="en">
+    <head>
+        <title>Document
+            </title>
+                
+    </head>
+    <body>
+        <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+        <div>
+                Guvi Geek Network
+        </div>
+    </body>
+    </html>
+    
+    3. 
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Contact Us Form</h1>
+    <form action=""></form>
+
+
+    <label for="fname">First Name</label>
+    <input type="text" name="" id="fname" value="">
+    <br><br>
+
+    <label for="lname">Last Name</label>
+    <input type="text" name="" id="lname">
+    <br><br>
+
+    <label for="email">Email</label>
+    <input type="text" name="" id="email">
+    <br><br>
+
+    <label for="phone_number">Phone Number</label>
+    <input type="text" name="" id="phone_number">
+    <br><br>
+
+    <label for="city">City</label>
+    <input type="text" name="" id="city">
+    <br><br>
+
+    <label for="Message">Message</label>
+    <input type="text" name="" id="Message">
+    <br><br>
+
+    <input type="submit" value="submit">
+    <br><br>
+</body>
+</html>
+
+4. 
+
+
+5.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://google.com/" target="_blank">Google</a>
+</body>
+</html>
+
+6. 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action=""></form>
+
+    <label for="Salaried">Salaried</label>
+    <input type="radio" name="employee_type" id="Salaried">
+
+    <label for="own_business">Own Business</label>
+    <input type="radio" name="employee_type" id="own_business">
+</body>
+</html>
+
+7. 
+
+
+
+8.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,tbody,tr,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <td>State of Health</td>
+                <td>Fasting Value</td>
+                <td></td>
+                <td>After Eating</td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td>Minimum</td>
+                <td>Maximum</td>
+                <td>2 hours after eating</td>
+            </tr>
+            <tr>
+                <td>Healthy</td>
+                <td>70</td>
+                <td>100</td>
+                <td>Less than 140</td>
+            </tr>
+            <tr>
+                <td>Pre-Diabetes</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140 to 200</td>
+
+            </tr>
+            <tr>
+                <td>Diabetes</td>
+                <td>More than 126</td>
+                <td>N/A</td>
+                <td>More than 200</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+9.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--name, email, gender, submit-->
+    <!--for attribute in label should be equal to id attribute in input-->
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name">
+    <br/><br>
+
+    <label for="email">Email Id</label>
+    <input type="email" name="email" id="email">
+    <br/><br>
+    <!--when we give name attribute same for any 2 inputs it binds and takes only one value in case of radio button-->
+    <label for="Male">Male</label>
+    <input type="radio" name="gender" id="Male">
+    <label for="Female">Female</label>
+    <input type="radio" name="gender" id="Female">
+    <br/><br>
+
+    <label for="Single">Single</label>
+    <input type="radio" name="Marital Status" id="Single">
+    <label for="Married">Married</label>
+    <input type="radio" name="Marital Status" id="Married">
+    <br><br>
+
+    <label for="vehicle1">2_Wheeler</label>
+    <input type="checkbox" name="bike" id="vehicle1" value="bike">
+
+    <label for="vehicle2">3_Wheeler</label>
+    <input type="checkbox" name="auto" id="vehicle2" value="auto">
+
+    <label for="vehicle3">4_Wheeler</label>
+    <input type="checkbox" name="car" id="vehicle3" value="car">
+    <br><br>
+
+    <input type="submit" value="Submit">
+    
+</body>
+</html>
+
+10.
+
+
+
+11.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--name, email, gender, submit-->
+    <!--for attribute in label should be equal to id attribute in input-->
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name">
+    <br/><br>
+
+    <label for="email">Email Id</label>
+    <input type="email" name="email" id="email">
+    <br/><br>
+    <!--when we give name attribute same for any 2 inputs it binds and takes only one value in case of radio button-->
+    <label for="Male">Male</label>
+    <input type="radio" name="gender" id="Male">
+    <label for="Female">Female</label>
+    <input type="radio" name="gender" id="Female">
+    <br/><br>
+
+    <label for="Single">Single</label>
+    <input type="radio" name="Marital Status" id="Single">
+    <label for="Married">Married</label>
+    <input type="radio" name="Marital Status" id="Married">
+    <br><br>
+
+    <label for="vehicle1">2_Wheeler</label>
+    <input type="checkbox" name="bike" id="vehicle1" value="bike">
+
+    <label for="vehicle2">3_Wheeler</label>
+    <input type="checkbox" name="auto" id="vehicle2" value="auto">
+
+    <label for="vehicle3">4_Wheeler</label>
+    <input type="checkbox" name="car" id="vehicle3" value="car">
+    <br><br>
+
+    <input type="submit" value="Submit">
+    
+</body>
+</html>
